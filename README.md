@@ -95,7 +95,7 @@ JSON Conversion
 ▶️ How to Run This Project:
 1. Clone the repository:
 ```bash
-git clone <https://github.com/katika-khayyum/instagram-data-cleaning-python-sql-eda.git>
+git clone https://github.com/katika-khayyum/instagram-data-cleaning-python-sql-eda.git
 ```
 2. Load the CSVs and into the database:
 ```bash
@@ -107,6 +107,7 @@ pip install pandas numpy matplotlib seaborn
 <h2><a class="anchor" id="author-contact"></a>Author & Contact</h2>
 
 👤 Katika Md Khayyum
-Data Science
-📧 Email: abdulqhaiyyum0786@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/katika-md-khayyum-510a6a315/)
+
+- Data Science
+- 📧 Email: abdulqhaiyyum0786@gmail.com
+- 🔗 [LinkedIn](https://www.linkedin.com/in/katika-md-khayyum-510a6a315/)
