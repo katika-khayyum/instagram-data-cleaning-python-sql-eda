@@ -4,6 +4,7 @@ _Collected raw Instagram data containing user details such as posts, followers, 
 
 ---
 ## 📌 Tables of Content
+
 - <a href="#overview">Overview</a>
 - <a href="#problem-statement">Problem Statement</a>
 - <a href="#dataset">DataSet</a>
@@ -36,7 +37,9 @@ The goal is to clean, standardize, and analyze this data to understand relations
 ---
 
 <h2><a class="anchor" id="dataset"></a>DataSet</h2>
+
 📂 DataSet
+
 - Raw data collected from Instagram profiles txt file in initialdata.txt.
 - Includes:Username,Number of posts,Followers,Following,page_bio,Profile links
 - Data was noisy and unstructured
@@ -44,7 +47,9 @@ The goal is to clean, standardize, and analyze this data to understand relations
 ---
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
+
 🛠️ Tools & Technologies
+
 - SQL(Common Table Expressions, filtering,groupby)
 - Python(Pandas, Numpy, Matplotlib, Seaborn, Regular Expressions (re))
 
@@ -63,6 +68,7 @@ parse-data-analysis/
 <h2><a class="anchor" id="data-cleaning--preparation"></a>Data Cleaning & Preparation</h2>
 
 🧹 Data Cleaning & Preparation
+
 - Step 1: Collected raw Instagram data and identified inconsistencies
 - Step 2: Removed extra spaces and standardized formatting using re
 - Step 3: Structured the data and stored each profile as a list element
@@ -72,13 +78,16 @@ parse-data-analysis/
 <h2><a class="anchor" id="json-conversion"></a>JSON Conversion</h2>
 
 JSON Conversion
+
 - Converted cleaned data into JSON format(Json.dumps)
 - Improved readability and usability
+ 
 ---
 
 <h2><a class="anchor" id="exploratory-data-analysis-eda"></a>Exploratory Data Analysis (EDA)</h2>
 
 📊 Compared number of posts vs followers
+
 - Identified: Profiles with high followers but low posts
 - Profiles with posts less than 500
 - Visualized data using:Scatter plots, Box plots, Histplot
@@ -108,6 +117,5 @@ pip install pandas numpy matplotlib seaborn
 
 👤 Katika Md Khayyum
 
-- Data Science
 - 📧 Email: abdulqhaiyyum0786@gmail.com
 - 🔗 [LinkedIn](https://www.linkedin.com/in/katika-md-khayyum-510a6a315/)
